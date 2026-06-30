@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    padding: 20px;
+    line-height: 1.5;
+
+    display: flex;
+    justify-content: center;   /* Centers horizontally */
+    align-items: center;       /* Centers vertically */
+    min-height: 100vh;
+}
+form{
+    
+ 
+    width: 100%;
+    max-width: 550px;
+
+    }
+fieldset{
+   
+     width: 100%;
+    background-color: white;
+    padding: 20px;
+
+
+}
