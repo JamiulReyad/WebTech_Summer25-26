@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    padding: 20px;
+    line-height: 1.5;
+
+    display: flex;
+    justify-content: center;   /* Centers horizontally */
+    align-items: center;       /* Centers vertically */
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:white;
+    border-radius: 10px;
+    padding: 200x;
+    
+}
+
+form{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    }
+
+fieldset{
+    
+    width: 100%;
+    max-width: 800px;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: rgb(130, 130, 254);
+    padding: 20px;
+    background-color: whitesmoke;
+    max-width: 550px;
+    margin: 0 auto;
+   
+
+}
+
+legend{
+
+    box-sizing: border-box;
+    border-color: rgb(143, 143, 253);
+    background-color: rgb(144, 144, 238);
+    border-radius: 5px;
+    padding: 0 10px;
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+}
+table{
+    width: 100%;
+}
+tr{
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+td{
+    padding: 6px;
+ 
+}
+label{
+
+    display: flex;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+#password {
+    width: 100%;        /* Makes it stretch to fill the entire column width */
+    height: 100%;
+    max-width: 200px;
+    max-height: 40px;
+    padding: 12px;      /* Increases internal height and width (breathing room) */
+    font-size: 16px;    /* Makes the text/dots inside larger and easier to read */
+    box-sizing: border-box; /* Ensures padding doesn't push the box out of the screen */
+}
+
+#Email {
+    width: 100%;        /* Makes it stretch to fill the entire column width */
+    height: 100%;
+    max-width: 200px;
+    max-height: 40px;
+    padding: 12px;      /* Increases internal height and width (breathing room) */
+    font-size: 16px;    /* Makes the text/dots inside larger and easier to read */
+    box-sizing: border-box; /* Ensures padding doesn't push the box out of the screen */
+}
+
+#telephone {
+    width: 100%;        /* Makes it stretch to fill the entire column width */
+    height: 100%;
+    max-width: 200px;
+    max-height: 40px;
+    padding: 12px;      /* Increases internal height and width (breathing room) */
+    font-size: 16px;    /* Makes the text/dots inside larger and easier to read */
+    box-sizing: border-box; /* Ensures padding doesn't push the box out of the screen */
+}
+#exdate {
+    width: 100%;        /* Makes it stretch to fill the entire column width */
+    height: 100%;
+    max-width: 200px;
+    max-height: 40px;
+    padding: 12px;      /* Increases internal height and width (breathing room) */
+    font-size: 16px;    /* Makes the text/dots inside larger and easier to read */
+    box-sizing: border-box; /* Ensures padding doesn't push the box out of the screen */
+}
+
+#StudentAge {
+    width: 100%;        /* Makes it stretch to fill the entire column width */
+    height: 100%;
+    max-width: 200px;
+    max-height: 40px;
+    padding: 12px;      /* Increases internal height and width (breathing room) */
+    font-size: 16px;    /* Makes the text/dots inside larger and easier to read */
+    box-sizing: border-box; /* Ensures padding doesn't push the box out of the screen */
+}
+#FullName {
+    width: 100%;        /* Makes it stretch to fill the entire column width */
+    height: 100%;
+    max-width: 200px;
+    max-height: 40px;
+    padding: 12px;      /* Increases internal height and width (breathing room) */
+    font-size: 16px;    /* Makes the text/dots inside larger and easier to read */
+    box-sizing: border-box; /* Ensures padding doesn't push the box out of the screen */
+}
+
+input[type="submit"]{
+    
+    width: 100%;
+    max-width: 4cm;
+    padding: 10px;
+    margin: 20px 15px 5px 240px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:rgb(128, 128, 252);
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+
+}
+input[type="reset"]{
+
+
+    width: 100%;
+    max-width: 4cm;
+    padding: 10px;
+    margin: 20px 15px 5px 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:white;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
