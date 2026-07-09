@@ -92,6 +92,28 @@ input[type="checkbox"] + label{
 
 }
 input[type="submit"]{
-    width: 100%;
+     width: 100%;
+    max-width: 2cm;
+    padding: 10px;
+    margin: 20px 15px 5px 240px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:rgb(128, 128, 252);
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+}
+
+input[type="reset"]{
+
+
+    width: 100%;
+    max-width: 4cm;
+    padding: 10px;
+    margin: 20px 15px 5px 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:white;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
